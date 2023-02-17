@@ -1,0 +1,79 @@
+.marked {
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ffff43);
+    background-position: center;
+    margin: -2px -6px;
+    padding: 2px 6px;
+    background-repeat: no-repeat;
+}
+
+@media (prefers-color-scheme: dark) {
+    .marked {
+        background-image: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=0da200);
+    }
+}
+
+.marked-2 {
+    background-image: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=ffff43);
+}
+
+@media (prefers-color-scheme: dark) {
+    .marked-2 {
+        background-image: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=0da200);
+    }
+}
+
+.marked-3 {
+    background-image: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-3&color=ffff43);
+}
+
+@media (prefers-color-scheme: dark) {
+    .marked-3 {
+        background-image: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-3&color=0da200);
+    }
+}
+
+.marked-4 {
+    background-image: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-4&color=ffff43);
+}
+
+@media (prefers-color-scheme: dark) {
+    .marked-4 {
+        background-image: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-4&color=0da200);
+    }
+}
+
+
+
+
+
+
+
+
+#scrollTeaser span {
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: rotate(-45deg);
+    animation: arrow-move 2.5s infinite;
+    box-sizing: border-box;
+}
+
+@keyframes arrow-move {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+* {
+    scroll-behavior: smooth;
+}
