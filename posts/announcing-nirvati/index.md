@@ -79,6 +79,5 @@ Improving Nirvati will be my core focus for the next few weeks.
 
 Citadel is completely removing any compatibility with Umbrel, but will support migrating from Umbrel for apps that are already available on Citadel.
 
-Long term, I also want to built _Nirvati Enterprise_, another project built on Nirvati, this time focused on companies and larger nodes. It will use Kubernetes and be a lot more reliable and have some advanced options. Citadel or Waldbaur Servr will also be installable on Nirvati Enterprise.
+Long term, I also want to build various other versions of Nirvati to reach a larger audience. You can have a look at a list on the [Nirvati front page](/).
 
-Despite what "Enterprise" software often means, Nirvati Enterprise will still be 100% FOSS, but if any company starts using it, we would strongly recommend donating to the development.

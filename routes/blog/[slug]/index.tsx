@@ -2,7 +2,6 @@ import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import * as gfm from "$gfm";
 import { loadPost, Post } from "../../../utils/posts.ts";
-import { Header } from "../../../components/Header.tsx";
 
 interface Data {
   post: Post;
@@ -30,7 +29,7 @@ export default function PostPage(props: PageProps<Data>) {
         />
       </Head>
       <div class="dark:bg-gray-800 dark:text-white">
-        <Header />
+        
         <div class="px-4 mx-auto max-w-screen-md">
           <h1 class="font-bold font-serif text-5xl pt-20">{post.title}</h1>
           <span class="inline-block mt-4">
