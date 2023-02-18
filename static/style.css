@@ -57,10 +57,13 @@ body {
 }
 
 
+body {
+  scroll-snap-type: y mandatory;
+}
 
-
-
-
+body > div {
+  scroll-snap-align: start;
+}
 
 #scrollTeaser span {
     margin-left: -12px;
