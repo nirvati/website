@@ -28,6 +28,6 @@
   }
 }
 
-.markdown-body li {
+.markdown-body ul li {
   list-style: disc;
 }
