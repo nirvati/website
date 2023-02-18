@@ -156,6 +156,7 @@ export default function Home(
           </a>
         </div>
       </div>
+      <a id="blog" />
       <div class="dark:bg-gray-800 dark:text-white py-10 flex flex-col items-center justify-center relative">
         <h1 class="text-center font-bold text-4xl mt-5 font-serif w-full">
           Our <span class="marked marked-4">blog</span>

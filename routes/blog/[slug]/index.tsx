@@ -30,8 +30,9 @@ export default function PostPage(props: PageProps<Data>) {
       </Head>
       <div class="dark:bg-gray-800 dark:text-white">
         
-        <div class="px-4 mx-auto max-w-screen-md">
-          <h1 class="font-bold font-serif text-5xl pt-20">{post.title}</h1>
+        <div class="px-4 mx-auto max-w-screen-md pt-20">
+          <a href="/#blog">← Back</a>
+          <h1 class="font-bold font-serif text-5xl">{post.title}</h1>
           <span class="inline-block mt-4">
             Written by{" "}
             <a class="inline" href={post.author.link}>{post.author.name}</a> -
