@@ -108,7 +108,7 @@ export default function Home(
             href="https://runcitadel.space"
             class="flex flex-col items-center justify-center"
           >
-            <span class="font-serif text-sm mb-2">For bitcoiners</span>
+            <span class="font-serif mb-2">For bitcoiners</span>
             <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-6 py-4 flex items-center justify-center w-full">
               <img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />
               <span class="font-bold text-xl">Citadel</span>
@@ -118,7 +118,7 @@ export default function Home(
             href="https://waldbaur.deno.dev"
             class="flex flex-col items-center justify-center"
           >
-            <span class="font-serif text-sm mb-2">For schools</span>
+            <span class="font-serif mb-2">For schools</span>
             <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-6 py-4 flex items-center justify-center w-full">
               <img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />
               <span class="font-bold text-xl">Waldbaur Servr</span>
@@ -128,7 +128,7 @@ export default function Home(
             href="https://nirvati.org/personal"
             class="flex flex-col items-center justify-center"
           >
-            <span class="font-serif text-sm mb-2">For individuals</span>
+            <span class="font-serif mb-2">For individuals</span>
             <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-6 py-4 flex items-center justify-center w-full">
               <img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />
               <span class="text-xl font-serif">Nirvati Personal</span>
@@ -138,7 +138,7 @@ export default function Home(
             href="https://nirvati.org/developer"
             class="flex flex-col items-center justify-center"
           >
-            <span class="font-serif text-sm mb-2">For developers</span>
+            <span class="font-serif mb-2">For developers</span>
             <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-6 py-4 flex items-center justify-center w-full">
               <img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />
               <span class="text-xl font-serif">Nirvati Dev</span>
@@ -148,7 +148,7 @@ export default function Home(
             href="https://nirvati.com"
             class="flex flex-col items-center justify-center"
           >
-            <span class="font-serif text-sm mb-2">For companies</span>
+            <span class="font-serif mb-2">For companies</span>
             <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-6 py-4 flex items-center justify-center w-full">
               <img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />
               <span class="text-xl font-serif">Nirvati Enterprise</span>
