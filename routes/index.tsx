@@ -44,7 +44,7 @@ export default function Home(
           <span class="marked">{props.data.adjective}</span> server management.
         </h1>
         <h3 class="text-center mb-5 mt-1 text-xl font-serif">
-          Nirvati makes managing servers easy again.
+          Nirvati makes managing servers easier than ever.
         </h3>
         <a
           id="scrollTeaser"
@@ -78,7 +78,7 @@ export default function Home(
         </h1>
         <h3 class="text-center mb-5 mt-1 text-xl font-serif">
           Nirvati is 100% free and open source software. All of our{" "}
-          <a href="https://github.com/nirvati" class="text-underline">code</a>
+          <a href="https://gitlab.com/nirvati" class="text-underline">code</a>
           {" "}
           and{" "}
           <a href="https://opencollective.com/runctadel" class="text-underline">
@@ -97,11 +97,10 @@ export default function Home(
       <a id="content-3" />
       <div class="dark:bg-gray-800 dark:text-white py-3 h-screen flex flex-col items-center justify-center relative">
         <h1 class="text-center font-bold text-4xl mt-5 font-serif">
-          Easy to <span class="marked marked-4">Install</span>.
+          Let's <span class="marked marked-4">set up</span> your server
         </h1>
         <h3 class="text-center mb-5 mt-1 text-xl font-serif">
-          Nirvati is available in various software packages that can provide a
-          good experience for you.
+          Nirvati is available in various software packages that can provide the optimal experience and set of software for your.
         </h3>
         <div class="grid mx-auto grid-cols-1 md:grid-cols-2 px-6 lg:max-w-screen-md gap-8">
           <a
@@ -120,8 +119,8 @@ export default function Home(
           >
             <span class="font-serif mb-2">For schools</span>
             <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-6 py-4 flex items-center justify-center w-full">
-              <img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />
-              <span class="font-bold text-xl">Waldbaur Servr</span>
+              <!--<img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />-->
+              <span class="font-bold text-xl">waldserv.</span>
             </div>
           </a>
           <a
@@ -130,7 +129,6 @@ export default function Home(
           >
             <span class="font-serif mb-2">For individuals</span>
             <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-6 py-4 flex items-center justify-center w-full">
-              <img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />
               <span class="text-xl font-serif">Nirvati Personal</span>
             </div>
           </a>
@@ -140,17 +138,15 @@ export default function Home(
           >
             <span class="font-serif mb-2">For developers</span>
             <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-6 py-4 flex items-center justify-center w-full">
-              <img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />
               <span class="text-xl font-serif">Nirvati Dev</span>
             </div>
           </a>
           <a
-            href="https://nirvati.com"
+            href="https://nirvati.org/enterprise"
             class="flex flex-col items-center justify-center"
           >
             <span class="font-serif mb-2">For companies</span>
             <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-6 py-4 flex items-center justify-center w-full">
-              <img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />
               <span class="text-xl font-serif">Nirvati Enterprise</span>
             </div>
           </a>
@@ -159,13 +155,13 @@ export default function Home(
       <a id="blog" />
       <div class="dark:bg-gray-800 dark:text-white py-10 flex flex-col items-center justify-center relative">
         <h1 class="text-center font-bold text-4xl mt-5 font-serif w-full">
-          Our <span class="marked marked-4">blog</span>
+          <span class="marked marked-4">Blog</span>
         </h1>
         <div>
           {props.data.posts.map((post) => (
             <div class="mt-8">
               <a href={`/blog/${post.slug}`}>
-                <h2 class="font-bold font-serif text-2xl">{post.title}</h2>
+                <h2 class="font-bold font-serif text-2xl marked marked-1">{post.title}</h2>
                 <time class="inline-block">
                   {new Date(post.publishedAt).toLocaleDateString(
                     props.data.lang,
