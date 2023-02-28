@@ -119,7 +119,6 @@ export default function Home(
           >
             <span class="font-serif mb-2">For schools</span>
             <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-6 py-4 flex items-center justify-center w-full">
-              <!--<img src="https://runcitadel.space/logo.svg" class="h-16 mr-4" />-->
               <span class="font-bold text-xl">waldserv.</span>
             </div>
           </a>
