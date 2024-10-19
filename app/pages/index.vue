@@ -7,12 +7,15 @@
         <h2 class="text-2xl">With Nirvati, you can break free from depending on cloud services and own your data
           again.</h2>
         <p>100% open source, 100% free</p>
+        <NuxtLink to="#more">
         <UButton size="lg">Learn more</UButton>
+        </NuxtLink>
       </div>
     </div>
     <div
         class="bg-[#ca6236] flex flex-col lg:flex-row items-center justify-center gap-2 text-center dark text-white pb-8">
       <div class="flex flex-col">
+        <a id="more"></a>
         <h1 class="font-bold font-serif text-5xl mb-2">Self-host your apps</h1>
         <h2 class="text-2xl max-w-xl">By running your own server, you can move away from cloud services where others can
           see your data and be sure <b>you</b> are the only one who has access to your data.</h2>
