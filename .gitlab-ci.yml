@@ -1,0 +1,17 @@
+image: oven/bun:latest
+before_script:
+  - bun i
+pages:
+  cache:
+    paths:
+      - node_modules/
+  variables:
+    NITRO_PRESET: gitlab_pages
+  script:
+    - bun run build
+  artifacts:
+    paths:
+      - .output/public
+  publish: .output/public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
