@@ -74,7 +74,7 @@
       <li class="mb-10 ms-4">
         <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">January 2024</time>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">January 2025</time>
         <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Citadel 0.5.0</h3>
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">
           A modern Bitcoin & Lightning experience fully integrated into Nirvati.
@@ -83,7 +83,7 @@
       <li class="mb-10 ms-4">
         <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">January 2024</time>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">January 2025</time>
         <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Upgrades from Citadel 0.3.0</h3>
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">
           Users from the previous Citadel versions can move to Nirvati.
@@ -92,7 +92,7 @@
       <li class="mb-10 ms-4">
         <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2024</time>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2025</time>
         <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Nirvati app registry</h3>
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">
           A self-hosted app registry for Nirvati, allowing developers to more easily build their own app store and sell apps.
@@ -101,7 +101,7 @@
       <li class="ms-4">
         <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June 2024</time>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June 2025</time>
         <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Nirvati 0.2.0</h3>
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">
           Advanced server management, app snapshots, multi-disk support, backups, and more.
