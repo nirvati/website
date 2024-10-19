@@ -1,0 +1,26 @@
+{
+  "layouts": {
+    "title": "Nirvati - {title}",
+    "citadel-title": "Citadel - {title}"
+  },
+  "donate": {
+    "title": "Donate",
+    "subtitle": "Help us keep offering Nirvati",
+    "text": {
+      "part-1": "At Nirvati, we are committed to developing a powerful, open source server management software that offers a wide range of features to users around the world.",
+      "part-2": "We believe that everyone should have access to the tools they need to manage their servers efficiently and securely, and we work hard to make that a reality.",
+      "part-3": "Donating to us is a great way to support our mission and help us continue to develop and improve our software.",
+      "part-4": "Your contributions help us to achieve the following goals:"
+    },
+    "goals": {
+      "goal-1": "Spend more time on the project",
+      "goal-2": "Operate our free HTTPS certificate service on nirvati.me",
+      "goal-3": "Host our website",
+      "goal-4": "Provide development servers for testing and experimentation",
+      "goal-5": "Host a container registry (for downloading Nirvati)",
+      "goal-6": "Operate a community chat and forum",
+      "goal-7": "Run a Lightning node"
+    },
+    "button": "Donate now"
+  }
+}
