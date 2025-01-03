@@ -24,4 +24,8 @@
   --color-nirvati-900: #310031;
   --color-nirvati-950: #190019;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 </style>

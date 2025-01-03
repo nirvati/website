@@ -8,7 +8,7 @@
             class="h-36 w-36 mb-4"
         />
         <h1 class="font-bold font-serif text-5xl">Coming soon</h1>
-        <h2 class="text-2xl">Raspberry Pi images are coming on the 26. October 2024.</h2>
+        <h2 class="text-2xl">Raspberry Pi images are coming soon.</h2>
       </div>
     </div>
   </div>

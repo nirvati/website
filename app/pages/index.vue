@@ -21,7 +21,7 @@
           see your data and be sure <b>you</b> are the only one who has access to your data.</h2>
       </div>
       <img src="~/assets/dashboard-screenshot.png" alt="A screenshot showing the Nirvati dashboard"
-           class="lg:max-w-[50vw] rounded"/>
+           class="lg:max-w-[50vw] rounded-lg"/>
     </div>
     <div class="bg-[#ca6236] flex flex-col items-center justify-center gap-2 text-center dark text-white pb-8">
       <h1 class="font-bold font-serif text-5xl">Easy to use</h1>
@@ -35,9 +35,6 @@
     <div class="bg-[#ca6236] flex flex-col items-center justify-center gap-2 text-center dark text-white pb-8">
       <h1 class="font-bold font-serif text-5xl">Control your apps</h1>
       <h2 class="text-2xl">Nirvati has a strict permission system for apps that ensures apps do not interact with anything they shouldn't. In addition, you can set storage limits for apps.</h2>
-    </div>
-    <div class="bg-black flex flex-col items-center justify-center gap-2 text-center dark text-white py-4 text-sm">
-      A project by Aaron Dewes.
     </div>
   </div>
 </template>
