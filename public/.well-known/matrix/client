@@ -1,0 +1,9 @@
+{
+    "m.homeserver": {
+        "base_url": "https://synapse.next.nirvati.org"
+    },
+    "org.matrix.msc2965.authentication": {
+        "issuer": "https://synapse-nirvati.nirvati.org/",
+        "account": "https://synapse-nirvati.nirvati.org/account"
+    }
+}
