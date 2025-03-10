@@ -8,7 +8,13 @@ export default defineNuxtConfig({
   },
 
   modules: ['@nuxtjs/i18n', '@nuxt/ui', '@nuxt/content'],
-
+  routeRules: {
+    "/.well-known/matrix/*": {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+      },
+    },
+  },
   i18n: {
     strategy: "no_prefix",
     detectBrowserLanguage: {
